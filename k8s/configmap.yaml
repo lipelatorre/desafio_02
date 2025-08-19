@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: desafio
+data:
+  APP_NAME: "ola-mundo"
