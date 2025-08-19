@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: ola-mundo-svc
+  namespace: desafio
+spec:
+  selector:
+    app: ola-mundo
+  ports:
+  - port: 80
+    targetPort: 5000
