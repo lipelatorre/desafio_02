@@ -23,6 +23,32 @@ Kubernetes (v1.20+)
 kubectl
 Helm (v3+)
 
+## Estrutura do repositório
+
+desafio_02/
+├── deploy_helm.sh
+├── deploy.sh
+├── app/
+│ ├── server.py
+│ ├── requirements.txt
+│ └── Dockerfile
+├── olamundo/
+│ ├── Chart.yaml
+│ ├── values.yaml
+│ └── templates/
+│ ├── deployment.yaml
+│ ├── _helpers.tpl
+│ ├── ingress.yaml
+│ ├── NOTES.txt
+│ ├── service.yaml
+├── k8s/
+│ ├── configmap.yaml
+│ ├── deployment.yaml
+│ ├── service.yaml
+│ ├── ingress.yaml
+│ └── namespace.yaml
+
+
 ## Iniciando o Olá Mundo
 
 ## 1 - Carregar o Minikube
